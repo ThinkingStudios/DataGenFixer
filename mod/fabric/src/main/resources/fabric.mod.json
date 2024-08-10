@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "datagenfix",
+  "version": "${version}",
+  "name": "DataGenFixer",
+  "description": "fix datagen doesn’t exit when finished with architectury loom.",
+  "authors": [
+    "ThinkingStudio", "TexTrue"
+  ],
+  "contact": {
+    "source": "https://github.com/ThinkingStudios/datagen-fixer"
+  },
+  "license": "LGPL-3.0",
+  "environment": "*",
+  "mixins": [
+    "datagenfix.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

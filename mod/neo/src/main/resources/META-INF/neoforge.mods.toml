@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "CC-0"
+
+[[mods]]
+modId = "datagenfix"
+version = "${version}"
+displayName = "DataGenFixer"
+authors = "ThinkingStudio, TexTrue"
+description = '''
+fix datagen doesn’t exit when finished with architectury loom.
+'''
+#logoFile = ""
+
+[[dependencies.datagenfix]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.datagenfix]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "datagenfix.neoforge.mixins.json"

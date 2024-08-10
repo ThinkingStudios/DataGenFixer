@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "org.thinkingstudio.datagenfix.fabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "mixins": [
+    "FabricDataGenHelperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
