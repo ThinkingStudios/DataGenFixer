@@ -1,0 +1,9 @@
+repositories {
+    maven {
+        url = "https://dl.cloudsmith.io/public/thinkingstudio/dategenfixer/maven/"
+    }
+}
+
+dependencies {
+    modImplementation "org.thinkingstudio.datagenfixer:datagenfix-neo:0.1.0+mc1.21"
+}
