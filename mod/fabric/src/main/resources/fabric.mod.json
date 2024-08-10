@@ -10,7 +10,7 @@
   "contact": {
     "source": "https://github.com/ThinkingStudios/datagen-fixer"
   },
-  "license": "LGPL-3.0",
+  "license": "CC0",
   "environment": "*",
   "mixins": [
     "datagenfix.fabric.mixins.json"
