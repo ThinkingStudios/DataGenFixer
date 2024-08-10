@@ -7,6 +7,7 @@ license = "CC0"
 modId = "datagenfix"
 version = "${version}"
 displayName = "DataGenFixer"
+displayURL = "https://github.com/ThinkingStudios/DataGenFixer"
 authors = "ThinkingStudio, TexTrue"
 description = '''
 fix datagen doesn’t exit when finished with architectury loom.

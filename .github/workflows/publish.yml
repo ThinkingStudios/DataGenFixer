@@ -28,9 +28,9 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle.kts*', '**/*.gradle*', '**/gradle-wrapper.properties', 'build.gradle.kts', 'build.gradle') }}
       - uses: gradle/wrapper-validation-action@v2
       - run: |
-          chmod +x mod/gradlew
+          chmod +x gradlew
 
       - name: Publish package
-        run: ./mod/gradlew publish
+        run: ./gradlew publish
         env:
           CLOUDSMITH_MAVEN_TOKEN: ${{ secrets.CLOUDSMITH_MAVEN_TOKEN }}

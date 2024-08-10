@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "org.thinkingstudio.datagenfix.fabric.mixin",
+  "package": "org.thinkingstudio.datagenfixer.fabric.mixin",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "mixins": [

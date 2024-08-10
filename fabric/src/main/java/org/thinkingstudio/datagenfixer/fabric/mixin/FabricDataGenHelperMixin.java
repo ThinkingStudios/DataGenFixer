@@ -1,4 +1,4 @@
-package org.thinkingstudio.datagenfix.fabric.mixin;
+package org.thinkingstudio.datagenfixer.fabric.mixin;
 
 import net.fabricmc.fabric.impl.datagen.FabricDataGenHelper;
 import org.spongepowered.asm.mixin.Mixin;

@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'datagenfix'
+rootProject.name = 'DataGenFixer'
 
 include 'common'
 include 'fabric'

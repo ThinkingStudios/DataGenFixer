@@ -1,4 +1,4 @@
-package org.thinkingstudio.datagenfix.neoforge;
+package org.thinkingstudio.datagenfixer.neoforge;
 
 import net.neoforged.fml.common.Mod;
 import org.thinkingstudio.datagenfix.DatagenFix;
